@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"nodemon"
+    "dev": "nodemon"
   },
   "keywords": [],
   "author": "Carlos Jaramillo",
@@ -14,7 +14,9 @@
     "axios": "^0.26.1",
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.3.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"

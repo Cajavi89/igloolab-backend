@@ -113,8 +113,8 @@ router.get('/', getAllUsersHandler);
  * @swagger
  * /api/users/{id} :
  *  get:
- *    summary: return all user's posts
- *    tags: [users]
+ *    summary: return all posts for an especified user
+ *    tags: [posts]
  *    parameters:
  *      - in: path
  *        name: id

@@ -26,6 +26,10 @@ Backend for user's applications
 - Run the development task: `npm start`
   - Starts server running at http://localhost:8080
 
+### TESTS
+
+- To run tests just use npm run test in console (testing using jest and supertest devDependencies)
+
 ### Documentation for API
 
 click or type on your browser the route the [DOCUMENTATION](http://localhost:8080/docs). -http://localhost:8080/docs

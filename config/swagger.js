@@ -26,6 +26,9 @@ const options = {
     servers:[
       {
         url:'http://localhost:8080'
+      },
+      {
+        url:'https://igoolab-backend.herokuapp.com/'
       }
     ]
   },

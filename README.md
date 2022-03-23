@@ -15,16 +15,17 @@ Backend for user's applications
   - PORT= 8080
   - URI_API = https://jsonplaceholder.typicode.com
 
+### Live Project
+
+- server deployed in [https://igoolab-backend.herokuapp.com/](https://igoolab-backend.herokuapp.com/)
+- to see documentation [https://igoolab-backend.herokuapp.com/docs](https://igoolab-backend.herokuapp.com/docs)
+
 ### Working on the project
 
 - Move into the project directory: `cd ~/YOUR_PROJECTS_DIRECTORY/IgoolabUsersProject`
 - Run the development task: `npm start`
-  - Starts a server running at http://localhost:8080
+  - Starts server running at http://localhost:8080
 
 ### Documentation for API
 
 click or type on your browser the route the [DOCUMENTATION](http://localhost:8080/docs). -http://localhost:8080/docs
-
-### Deploying to Heroku
-
-- Push your code to Heroku: `git push heroku master`

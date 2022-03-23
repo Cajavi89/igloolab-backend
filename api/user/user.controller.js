@@ -18,6 +18,7 @@ async function getAllPostsByIdHandler(req, res){
   const { id } = req.params
   try {
     const posts = await getAllPostsByUserId(id)
+    if(!posts.length) return res.status(404).json({Error: 'User ID not found'})
     return res.status(200).json(posts);
 
   } catch (error) {

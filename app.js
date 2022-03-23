@@ -22,4 +22,4 @@ app.listen(PORT, ()=>{
   console.log(`Server Runing at http://localhost:${PORT}`)
 });
 
-module.exportr = app;
+module.exports = app;
